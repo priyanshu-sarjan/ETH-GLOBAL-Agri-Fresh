@@ -4,3 +4,4 @@
   "rootDirectory": "agrifresh-web",
   "buildCommand": "next build --webpack"
 }
+
