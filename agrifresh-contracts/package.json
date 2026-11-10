@@ -1,0 +1,13 @@
+{
+  "name": "agrifresh-contracts",
+  "version": "1.0.0",
+  "description": "Onchain Smart Contract Suite for AgriFresh - IoT Cold-Chain Escrow & Parametric Insurance",
+  "scripts": {
+    "compile": "node scripts/compile.js",
+    "test": "node scripts/test.js"
+  },
+  "dependencies": {
+    "ethers": "^6.17.0",
+    "solc": "^0.8.24"
+  }
+}

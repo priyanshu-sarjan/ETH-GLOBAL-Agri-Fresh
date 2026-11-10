@@ -1,0 +1,24 @@
+[project]
+name = "agrifresh-backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "priyanshu-sarjan", email = "137197045+priyanshu-sarjan@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "eth-account>=0.14.0",
+    "fastapi>=0.162.2",
+    "httpx>=0.28.1",
+    "pydantic>=2.14.3",
+    "uvicorn>=0.54.0",
+    "web3>=8.0.0",
+]
+
+[project.scripts]
+agrifresh-backend = "agrifresh_backend:main"
+
+[build-system]
+requires = ["uv_build>=0.12.2,<0.13.0"]
+build-backend = "uv_build"

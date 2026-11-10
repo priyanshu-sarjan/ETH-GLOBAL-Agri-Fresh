@@ -1,0 +1,10 @@
+.venv
+__pycache__
+*.pyc
+agrifresh-backend/.venv
+agrifresh-backend/__pycache__
+agrifresh-contracts/node_modules
+agrifresh-contracts/cache
+agrifresh-web/.next
+agrifresh-web/node_modules
+.git
